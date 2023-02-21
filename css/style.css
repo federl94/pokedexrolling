@@ -1,0 +1,32 @@
+.bodyError404 {
+  background-image: url(../asset/porygonGif.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.gif404 {
+  width: 33%;
+}
+
+.containerError404 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+button {
+  color: white;
+  padding: 13px 20px;
+  border-radius: 15px;
+  border: none;
+  background: rgb(255, 16, 175);
+}
