@@ -1,1 +1,46 @@
 
+.mainError404 {
+  height: 100vh;
+  background-image: url(../asset/porygonGif.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.gif404 {
+  width: 30%;
+}
+
+.containerError404 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+button {
+  color: white;
+  padding: 13px 20px;
+  border-radius: 15px;
+  border: none;
+  background: rgb(255, 16, 175);
+}
+.sombra{
+    border: 3px solid;
+    box-shadow: 5px 10px 20px 5px rgb(141, 141, 141);
+}
+.card:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 15px #ec731e;
+}
+.imgBulba{
+    max-width: 80%;
+
+}
+
