@@ -1,16 +1,16 @@
-.bodyError404 {
+.mainError404 {
+  height: 100vh;
   background-image: url(../asset/porygonGif.gif);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-attachment: fixed;
   margin: 0;
   padding: 0;
-  height: 100vh;
 }
 
 .gif404 {
-  width: 33%;
+  width: 30%;
 }
 
 .containerError404 {
@@ -29,3 +29,4 @@ button {
   border: none;
   background: rgb(255, 16, 175);
 }
+
