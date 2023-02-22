@@ -17,11 +17,266 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
-
   <body>
-    <footer class="bg-dark text-danger d-flex justify-content-center py-4">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Pokedex</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Categorías
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="error404.html"
+                    >Tipo de Pokemon</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="error404.html"
+                    >Número de Pokemon</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="error404.html"
+                    >Medallas</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="error404.html"
+                    >Habilidad</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="buscar un pokemon"
+              placeholder="buscar un pokemon"
+              aria-label="buscar"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+   </header>
+   <main>
+      <section class="container">
+        <div class="card text-center">
+          <div class="card-header">
+            <h2>Bulbasaur #001</h2>
+            <h3>フシギダネ (Fushigidane)</h3>
+          </div>
+          <article class="row container">
+            <div class="card-body col-md-6">
+              <img
+                src="../img/650px-Bulbasaur.png"
+                alt="imagen Bulbasaur"
+                class="imgBulba"
+              />
+            </div>
+
+            <div class="col-md-6 mt-md-5">
+              <img
+                src="../img/tipoBulba.png"
+                alt="tipos y debilidades de bulbasaur"
+                class="imgBulba"
+              />
+            </div>
+          </article>
+          <div class="card-footer text-muted">
+            <p>
+              Bulbasaur (フシギダネ Fushigidane en japonés) es un Pokémon de
+              tipo planta/veneno introducido en la primera generación. Es uno de
+              los Pokémon iniciales que pueden elegir los entrenadores que
+              empiezan su aventura en la región de Kanto, junto a Squirtle y
+              Charmander, en las ediciones Pokémon Rojo, Pokémon Verde y Pokémon
+              Azul y Pokémon Rojo Fuego y Pokémon Verde Hoja. Se destaca por ser
+              el primer Pokémon de la Pokédex Nacional.
+            </p>
+          </div>
+          <div class="accordion accordion-flush" id="acordeonBulba">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#parteAcordeonUno"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  <h2>Etimología</h2>
+                </button>
+              </h2>
+              <div
+                id="parteAcordeonUno"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#acordeonBulba"
+              >
+                <div class="accordion-body text-md-start">
+                  <ul>
+                    <li class="mt-2">
+                      Su nombre proviene de la palabra inglesa bulb (bulbo) y de
+                      la palabra griega saur (reptil o lagarto).
+                    </li>
+                    <li class="mt-2">
+                      Su nombre japonés, Fushigidane, proviene de 不思議種
+                      fushigidane (semilla extraña) y de un juego de palabras
+                      con 不思議だね fushigi da ne (es extraño, ¿verdad?).
+                    </li>
+                    <li class="mt-2">
+                      Su nombre francés, Bulbizarre, procede de las palabras
+                      francesas bulbe (bulbo) y bizarre (extraño).
+                    </li>
+                    <li class="mt-2">
+                      Su nombre alemán, Bisasam, procede de las palabras
+                      alemanas Bi (dos), Saurier (dinosaurio) y Samen (semilla).
+                    </li>
+                    <li class="mt-2">
+                      Su nombre coreano, 이상해씨 (Isanghaessi), procede de
+                      이상해 isanghada (extraño) y 씨 ssi (semilla).
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="parteAcordeonDos">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  <h2>Biología</h2>
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="parteAcordeonDos"
+                data-bs-parent="#acordeonBulba"
+              >
+                <div class="accordion-body">
+                  Bulbasaur es un Pokémon cuadrúpedo de color verde, posee
+                  manchas de una tonalidad más oscura del mismo color con
+                  distintas formas geométricas. Su cabeza representa cerca de un
+                  tercio de su cuerpo. En su frente se ubican tres manchas que
+                  pueden cambiar de posición, forma o lugar dependiendo del
+                  ejemplar. Tiene como orejas muñones pequeños y puntiagudos.
+                  Sus ojos son grandes y de color rojo. Sus patas son cortas y
+                  posee tres garras en cada una. Este Pokémon tiene plantado un
+                  bulbo en el lomo desde que nace, esta semilla crece y se
+                  desarrolla a lo largo del ciclo de vida de Bulbasaur a medida
+                  que suceden sus evoluciones. El bulbo absorbe y almacena la
+                  energía solar que Bulbasaur necesita para hacer florecer el
+                  bulbo de su lomo y evolucionar en Ivysaur. Dicen que cuanta
+                  más luz consuma la semilla, más rápido crecerá y brotará, por
+                  lo que es muy común ver a este Pokémon tumbado echándose una
+                  siesta en lugares donde los rayos del sol lleguen a plenitud.
+                  Por otro lado, gracias a los nutrientes que el bulbo almacena,
+                  puede pasar varios días sin comer. Su cuerpo según a palabras
+                  de Ken Sugimori y Junichi Masuda en una entrevista, está
+                  basado en un anfibio (sapo o rana), al igual que toda su línea
+                  evolutiva.3 El bulbo de Bulbasaur le ayuda a defenderse de los
+                  enemigos, y desde él puede disparar ataques tales como rayo
+                  solar y drenadoras entre otros movimientos. No es muy raro
+                  encontrarlo en jardines y zonas cercanas a fuentes de agua. Se
+                  los puede atraer con el aroma de las flores. Según el anime,
+                  una vez al año, cuando estos Pokémon están listos para
+                  evolucionar suelen reunirse en grandes cantidades en un Jardín
+                  Misterioso mientras hacen un ritual a la luz de la luna junto
+                  a un gran Venusaur.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#parteAcordeonTres"
+                  aria-expanded="false"
+                  aria-controls="parteAcordeonTres"
+                >
+                  <h2>Dimorfismo sexual</h2>
+                </button>
+              </h2>
+              <div
+                id="parteAcordeonTres"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#acordeonBulba"
+              >
+                <div class="accordion-body row">
+                  <div class="card text-bg-light bg-primary-subtle col-md-6">
+                    <img
+                      src="../img/650px-Bulbasaur.png"
+                      class="card-img"
+                      alt="imagen bulbasaur macho"
+                    />
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Macho</h5>
+                    </div>
+                  </div>
+                  <div
+                    class="card text-bg-light bg-danger-subtle col-md-6 mt-2 mt-md-0"
+                  >
+                    <img
+                      src="../img/650px-Bulbasaur.png"
+                      class="card-img"
+                      alt="imagen bulbasaur Hembra"
+                    />
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Hembra</h5>
+                    </div>
+                  </div>
+                  <h5>No se encuentran diferencias aparentes</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+     <footer class="bg-dark text-danger d-flex justify-content-center py-4">
       &copy; Todos los derechos reservados
     </footer>
     <script
@@ -31,3 +286,4 @@
     ></script>
   </body>
 </html>
+    
