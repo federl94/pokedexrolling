@@ -1,3 +1,13 @@
+.sombra{
+    border: 3px solid;
+    box-shadow: 5px 10px 20px 5px rgb(141, 141, 141);
+}
+.card:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 15px #ec731e;
+}
 .imgBulba{
     max-width: 80%;
 }
+
