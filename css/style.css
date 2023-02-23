@@ -1,0 +1,98 @@
+body {
+    background-image: radial-gradient( circle farthest-corner at 1.3% 2.8%,  rgba(239,249,249,1) 0%, rgba(182,199,226,1) 100.2% );
+}
+.bg-card {
+    background-color: #e3e3e3;
+}
+.imgcarrousel {
+    height: 450px;
+}
+.primeralinea {
+    text-align: justify;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tipopokemon {
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    color: white;
+    width: 38.4375%;
+    float: left;
+    text-transform: none;
+    font-size: 13px;
+    text-align: center;
+}
+.bg-veneno {
+    background-color: blueviolet;
+}
+.bg-fuego {
+    background-color: #fd7e14;
+}
+.bg-tierra {
+    background-color: #f19d2e;
+}
+.bg-volador {
+    background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+}
+#cardpokemon {
+    width: 25%;
+}
+#cardint:hover{
+    transition: 0.5s;
+    transform: scale(1);
+    box-shadow: 0px 0px 10px 10px #ec731e;
+}
+.mainError404 {
+  height: 100vh;
+  background-image: url(../asset/porygonGif.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.gif404 {
+  width: 30%;
+}
+
+.containerError404 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+button {
+  color: white;
+  padding: 13px 20px;
+  border-radius: 15px;
+  border: none;
+  background: rgb(255, 16, 175);
+}
+.sombra{
+    border: 3px solid;
+    box-shadow: 5px 10px 20px 5px rgb(141, 141, 141);
+}
+.card:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 15px #ec731e;
+}
+.imgBulba{
+    max-width: 80%;
+
+}
+@media (min-width:768px) and (max-width: 991px) {
+    #cardpokemon {
+        width: 50%;
+    }
+  }
+@media (max-width: 767px) {
+    #cardpokemon {
+        width: 100%;
+    }
+}
